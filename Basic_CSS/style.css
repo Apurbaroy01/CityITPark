@@ -1,0 +1,20 @@
+body{
+    background-color: aqua;
+}
+
+p{
+    color: red;
+}
+
+#prDec{
+    color: blue;
+}
+
+.box{
+    background-color: blue;
+    border: 5px solid red;
+}
+
+.box h1{
+    color: white;
+}
