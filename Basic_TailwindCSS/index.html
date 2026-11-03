@@ -1,18 +1,31 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <!-- tailwind -->
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
 </head>
+<body class="bg-gray-100">
+    <div>
+        <nav class="flex justify-between items-center bg-lime-300 p-4 ">
+            <div>
+                <img src="/logo.jpg" alt="Logo" class="h-10 w-10 rounded-md">
+            </div>
 
-<body class="bg-red-500">
-    <h1 class="text-6xl font-bold">
-        Hello world!
-    </h1>
+            <div class="flex gap-4">
+                <a href="">Home</a>
+                <a href="">Work</a>
+                <a href="">Prices</a>
+                <a href="">Projects</a>
+                <a href="">Contact</a>
+            </div>
+
+            <div class="bg-red-500 p-2 rounded-md text-white items-center">
+               <button>Login</button> 
+            </div>
+        </nav>
+    </div>
+    
 </body>
-
 </html>
